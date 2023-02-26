@@ -22,8 +22,8 @@ The checklist is divided into several categories, each containing a list of item
 - [x] Ensure the process flow and workflows are easy to read and understand
 - [x] Avoid big workflows, with more than 30-50 activities
 - [x] If an workflow is big, break the implementation in smaller workflows with more specific scope
-- [x] Implement/review transaction retry mechanism in accordance with the process and code. (Auto Retry property in Orchestrator Queue)
-- [x] Adapt transaction reference information to the process. Care should be taken to observe the string character limit of the reference, which is 128 characters. (Enforce unique references property in Orch. Queue and Reference property in Add Queue Item activity in Studio)
+- [x] Implement/review transaction retry mechanism in accordance with the process and code. (`Auto Retry` property in Orchestrator Queue)
+- [x] Adapt transaction reference information to the process. Care should be taken to observe the string character limit of the reference, which is 128 characters. (`Enforce unique references` property in Orch. Queue and `Reference` property in Add Queue Item activity in Studio)
 - [x] Handle fatal errors encountered in the Framework Init state, and transition the process to a faulted state (if necessary, send an error email to the process owner).
 - [x] Transition the process to a faulted state if all transactions encounter system exception type errors. (This can be important to view it as faulted to prevent a transaction-based error.)
 
@@ -44,7 +44,7 @@ The checklist is divided into several categories, each containing a list of item
 - [x] Selectors do not have overly specific information
 - [x] Use partial selectors when several activities are executed in the same window (usage of containers)
 - [x] Hardcoded values should not be used in the code (use config file or a variable suitable for the code)
-- [x] The code should not contain structures that may cause an infinite loop. (This can be checked using the Workflow Analyzer in Studio.)
+- [x] The code should not contain structures that may cause an infinite loop. (This can be checked using the `Workflow Analyzer` in Studio.)
 - [x] The transaction processing speed, CPU usage and RAM usage should be observed and optimized during runtime.
 
 
