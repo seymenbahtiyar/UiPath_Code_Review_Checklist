@@ -3,7 +3,7 @@
 
 UiPath Code Review Checklist is a comprehensive list of items that can be used to review UiPath code for quality and best practices. This checklist is designed to help UiPath developers and reviewers ensure that their code is of high quality, maintainable, and meets industry standards.
 
-The checklist is divided into several categories, each containing a list of items that should be reviewed during a code review. These categories include Process Architecture, Best Practices, Conventions & Annotations & Documentation, Security, Logging and Reporting, Dev Ops.
+The checklist is divided into several categories, each containing a list of items that should be reviewed during a code review. These categories include Process Architecture, Best Practices, Conventions & Annotations & Documentation, Security, Logging & Reporting, Dev Ops.
 
 ## License
 
@@ -68,7 +68,7 @@ The checklist is divided into several categories, each containing a list of item
 - [x] No sensitive data is logged or stored inside workflows/logs
 
 
-## Logging and Reporting
+## Logging & Reporting
 
 - [x] Avoid excessive logging during runtime to prevent performance bottlenecks and ensure proper database usage
 - [x] Use logs at the beginning and end of a workflow to track the current process status
