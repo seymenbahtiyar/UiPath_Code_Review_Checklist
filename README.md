@@ -68,7 +68,7 @@
 - [x] Use appropriate log levels
 - [x] Generate reports that provide details on bot executions
 
-# Dev Ops
+## Dev Ops
 
 - [x] All code is contained in source control
 - [x] CI/CD is configured for this automation
