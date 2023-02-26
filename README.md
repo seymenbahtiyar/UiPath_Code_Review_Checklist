@@ -66,7 +66,7 @@ The checklist is divided into several categories, each containing a list of item
 - [x] No credentials stored in workflows or config file (use assets and config file)
 - [x] No hardcoded sensitive data inside workflows or config file
 - [x] No sensitive data is logged or stored inside workflows/logs
-- [x] When utilizing password information, it is advisable to use the SecureString data type and avoid using the String data type unless necessary.(This can be checked using the `Workflow Analyzer` in Studio.)
+- [x] When utilizing password information, it is advisable to use the SecureString data type and avoid using the String data type unless necessary. (This can be checked using the `Workflow Analyzer` in Studio.)
 
 
 ## Logging & Reporting
