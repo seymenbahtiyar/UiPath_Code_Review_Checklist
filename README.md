@@ -47,7 +47,7 @@ The checklist is divided into several categories, each containing a list of item
 ## Conventions & Annotations & Documentation
 
 - [x] Arguments follow naming convention (prefixed with `in_`/`out_`/`io_`, A combination of snake and camel case in_Written_Like_This)
-- [x] Variables should follow naming convention (A combination of snake and camel case Written_Like_This)
+- [x] Variables should follow naming convention (A combination of snake and camel case var_Written_Like_This)
 - [x] Workflows follow naming conventions
 - [x] Workflows have a top level annotation
 - [x] Each activity has a meaningful name and/or annotation
