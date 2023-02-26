@@ -71,10 +71,10 @@ The checklist is divided into several categories, each containing a list of item
 
 ## Logging & Reporting
 
-- [x] Avoid excessive logging during runtime to prevent performance bottlenecks and ensure proper database usage
 - [x] Use logs at the beginning and end of a workflow to track the current process status
 - [x] Log errors appropriately
 - [x] Use appropriate log levels
+- [x] Avoid excessive logging during runtime to prevent performance bottlenecks and ensure proper database usage
 - [x] Generate reports that provide details on bot executions
 
 ## Dev Ops
