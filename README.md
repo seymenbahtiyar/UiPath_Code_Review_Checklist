@@ -77,7 +77,7 @@ The checklist is divided into several categories, each containing a list of item
 - [x] Log errors appropriately
 - [x] Use appropriate log levels
 - [x] Avoid excessive logging during runtime to prevent performance bottlenecks and ensure proper database usage
-- [x] Generate reports that provide details on bot executions
+- [x] Generate reports that provide details on bot executions (if necessary, send a output email to the process owner)
 
 ## Dev Ops
 
