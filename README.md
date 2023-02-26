@@ -1,4 +1,4 @@
-# UiPath_Code_Review_Checklist
+# UiPath Code Review Checklist
 -------------
 
 UiPath Code Review Checklist is a comprehensive list of items that can be used to review UiPath code for quality and best practices. This checklist is designed to help UiPath developers and reviewers ensure that their code is of high quality, maintainable, and meets industry standards.
