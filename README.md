@@ -74,7 +74,7 @@ The checklist is divided into several categories, each containing a list of item
 
 ## Dev Ops
 
-- [x] All code is contained in source control
+- [x] All code is contained in source control (GitHub, GitLab, Fileserver etc.)
 - [x] CI/CD is configured for this automation
 
 
