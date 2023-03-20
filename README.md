@@ -28,7 +28,7 @@ The checklist is divided into several categories, each containing a list of item
 - [x] Adapt transaction reference information to the process. Care should be taken to observe the string character limit of the reference, which is 128 characters. (`Enforce unique references` property in Orch. Queue and `Reference` property in Add Queue Item activity in Studio)
 - [x] Handle fatal errors encountered in the Framework Init state, and transition the process to a faulted state (if necessary, send an error email to the process owner).
 - [x] Transition the process to a faulted state if all transactions encounter system exception type errors. (This can be important to view it as faulted to prevent a transaction-based error.)
-- [x] In the Init state of the Framework, if there are any remaining transactions in the Queue from the previous execution and need to be cleaned, it should be cleaned (Delete Queue Items Loop)
+- [x] In the Init state of the Framework, if there are any remaining transactions in the Queue from the previous execution and need to be cleaned, it should be cleaned (Loop with Delete Queue Items activity  - this is optional because it depends on the process.)
 
 ## Best Practices
 
