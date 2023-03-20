@@ -33,7 +33,7 @@ The checklist is divided into several categories, each containing a list of item
 ## Best Practices
 
 - [x] Use folders with an appropriate naming to store the relevant xaml files for a part of a process
-- [x] After each flow is invoked, it must be in the exception handling structure (Surround with Try Catch)
+- [x] After each flow is invoked, it must be in the exception handling structure (Surround with Try Catch & Throw or Rethrow the caught exception with detailed error message)
 - [x] Workflows can be ran without launching the entire process (by modifying arguments/conditional loading/using a test workflows xaml)
 - [x] Selector based activities are used when possible (i.e. less usage of Image automation)
 - [x] Workflows are designed to be reusable
